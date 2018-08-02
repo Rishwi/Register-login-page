@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>StartHere Registration</title>
+	<style type="text/css">
+		input
+		{
+			border-top: none;
+            border-left: none;
+            border-right: none;
+            border-color: #230e7c;
+            padding-bottom: 2px;
+            width: 300px;
+            margin: 10px 0px;
+		}
+		table
+		{
+			font-family: verdana;
+			width: 43%;
+			color: #230e7c;
+		}
+		input:hover
+		{
+			color: red;
+			background-color: yellow;
+			background-size: 10px;
+		}
+		.submit
+		{
+			border: 1ps solid #d8ffe2;
+background-image: linear-gradient(#230e7c,#e07b0f);
+color: white;
+margin-top: 40px;
+width: 40%;
+padding: 12px;
+font-size: 16px;
+border-radius: 100px;
+cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<form action="action_page.php" align="center">
+  <div class="container" >
+  	<div style="background-image: url(head1.jpg);">
+    <h1><font face="Comic Sans MS" color="#07e2f2" size="8" >Register</font></h1>
+    <p><font face="Comic Sans MS" color="#fffa00">Please fill in this form to create an account.</font></p>
+</div>
+<img src="hr1.png" height="30dp" width="900dp">
+<br>
+<br>
+<table border="0" align="center" cellspacing="7">
+	<tr>
+		<td align="left"><label for="email"><b>Email</b></label></td>
+		<td><input type="text" placeholder=" Enter Email" name="email" required></td>
+	</tr>
+	<tr>
+		<td align="left"><label for="psw"><b>Password</b></label></td>
+		<td><input type="password" placeholder=" Enter Password" name="psw" required></td>
+	</tr>
+	<tr>
+		<td align="left"><label for="psw-repeat"><b>Repeat Password</b></label></td>
+		<td><input type="password" placeholder=" Repeat Password" name="psw-repeat" required></td>
+	</tr>
+</table>
+<br>
+    <img src="hr1.png" height="30dp" width="900dp">
+
+    <p> <font face="Trebuchet MS">By creating an account you agree to our </font><a href="#">Terms & Privacy</a>.</p>
+    <button type="submit" class="submit">Register</button>
+  </div>
+
+  <div class="container signin">
+    <p><font face="Trebuchet MS">Already have an account? </font><a href="index.html">Sign in</a>.</p>
+  </div>
+</form>
+
+</body>
+</html>
